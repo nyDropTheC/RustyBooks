@@ -11,7 +11,8 @@ wasm-opt = false
 crate-type = ["cdylib"]
 
 [dependencies]
-openai = "1.0.0-alpha.11"
+console_error_panic_hook = "0.1.7"
+reqwest = "0.11.18"
 worker = "0.0.15"
 
 [profile.release]

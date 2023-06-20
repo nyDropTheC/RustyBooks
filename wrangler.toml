@@ -9,3 +9,4 @@ command = "cargo install -q worker-build && worker-build --release"
 
 # necessary secrets:
 # OPENAI_KEY
+# VERIFIER_URI
